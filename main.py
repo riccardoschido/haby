@@ -9,6 +9,7 @@ import datetime
 import matplotlib.pyplot as plt
 import numpy as np
 
+plt.subplots_adjust(left=0.15, bottom=0.15, right=0.9, top=0.9, wspace=None, hspace=None) # Clearer view of the graph
 plt.style.use('_mpl-gallery')
 current_date = datetime.date.today()
 
